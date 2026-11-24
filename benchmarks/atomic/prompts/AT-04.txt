@@ -1,0 +1,5 @@
+Analyze:
+src/cart.ts(14,5): error TS2322: Type 'string' is not assignable to type 'number'.
+src/cart.ts(21,12): error TS2339: Property 'total' does not exist on type 'CartItem'.
+Build failed with exit code 2.
+Return location, code, likely cause and next inspection. Distinguish facts from assumptions.

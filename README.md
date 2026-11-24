@@ -1,22 +1,9 @@
 # LocalAI-LAB
 
-Experimental evaluation of local language models as assistants to cloud coding agents. No hardware purchases, no changes to existing development workflows or knowledge bases.
+Experimental evaluation of local language models as assistants to cloud coding agents. No hardware purchases or changes to existing workflows/KB.
 
-## Start here
+## Start
+Clone and open `docs/index.html` (Hungarian, offline, no build). For stable browser storage run `python -m http.server 8000 --bind 127.0.0.1 --directory docs`, open http://127.0.0.1:8000.
+Export JSON, review for sensitive data, save as `results/progress.json` and commit. Import on another device. No automatic GitHub sync.
 
-Open `docs/index.html` in a browser after cloning this repository. The Hungarian dashboard contains the eight-phase experiment guide, checklists, prompts and measurement forms. No backend or build step is required. For a stable browser storage origin, optionally run `python -m http.server 8000 --bind 127.0.0.1 --directory docs` and open http://127.0.0.1:8000.
-
-Export the dashboard state as JSON, review it for sensitive information, then save it as `results/progress.json` and commit it. Import that file on another device. Browser state is not automatically synchronized to GitHub.
-
-## Scope
-
-- P00 Hardware and environment
-- P01 Model familiarization
-- P02 Atomic benchmark
-- P03 SliceBoard project benchmark
-- P04 Remote inference
-- P05 Serena A/B evaluation
-- P06 Real project pilot
-- P07 Evaluation and decision
-
-See `specification/`, `benchmarks/`, `scripts/` and `results/`. All results are initially unmeasured. Never publish private source code, credentials, raw agent logs or private network details. Keep experimental workspaces outside tracked files. No license is granted until the owner chooses one.
+Eight phases: hardware, prompting, atomic benchmark, SliceBoard, remote inference, Serena, real pilot, decision. See specification and benchmarks. All results unmeasured. Never publish private source, credentials, logs or network details. License pending owner decision.

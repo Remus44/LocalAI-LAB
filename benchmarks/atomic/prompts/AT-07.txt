@@ -1,0 +1,1 @@
+Report: S01 complete. S02 in progress. Build passed. Smoke tests not executed. Return only JSON keys completed_slices (array), active_slice (string), build_passed (boolean), smoke_tests_passed (boolean or null). Unknown is null.

@@ -1,0 +1,3 @@
+Extract completed work, decisions, reusable patterns, limitations, pending tasks and evidence from supplied report. Do not invent information. Separate project-specific and reusable knowledge. Mark unknowns. Do not update KB.
+REPORT:
+S01: Added Task dataclass and validation in models.py. Unit tests passed. Persistence deferred to S02. No smoke test run. Decision: use standard library only.

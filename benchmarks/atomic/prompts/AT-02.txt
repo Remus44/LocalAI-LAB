@@ -1,0 +1,4 @@
+Fix second_largest(numbers):
+    numbers.sort()
+    return numbers[-2]
+Return second-largest distinct integer, or None for fewer than two distinct values. Do not mutate input. Return only function.

@@ -1,0 +1,10 @@
+workspace/
+private/
+.env
+.env.*
+__pycache__/
+*.pyc
+.aider*
+.serena/
+.venv/
+*.log

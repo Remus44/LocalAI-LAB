@@ -1,0 +1,3 @@
+# Serena independent experiment
+Install from https://github.com/oraios/serena following current release documentation. Use disposable copy, local scope only, no global config.
+Compare Claude with/without Serena and Codex with/without Serena. Five identical read-only tasks: definition, references, impact, relevant files, trace bug. Fresh sessions, fixed commit and model/effort. Ask for paths, symbols, call sites, evidence and uncertainty. Record accuracy, omissions, tokens/cache, wall time, tool calls and setup cost. Serena is LSP-based, not an Ollama model. Read-only mode is not a sandbox.

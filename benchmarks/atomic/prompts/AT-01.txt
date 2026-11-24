@@ -1,0 +1,1 @@
+Implement calculate_total(items) in Python 3.10+. Each dictionary has integer price and quantity. Sum price*quantity; empty list returns 0; negative price or non-positive quantity raises ValueError. Do not mutate input. Standard library only. Return only function.

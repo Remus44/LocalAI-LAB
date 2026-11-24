@@ -1,0 +1,1 @@
+Write unittest tests importing clamp from utils. Implementation: def clamp(value, minimum, maximum): raises ValueError if minimum > maximum, otherwise returns max(minimum,min(value,maximum)). Test normal, boundaries, outside range, equal boundaries and invalid ranges. Return test file only.

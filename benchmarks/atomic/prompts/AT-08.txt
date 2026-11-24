@@ -1,0 +1,1 @@
+Implement calculate_discount(price). Discount rules are in a document not supplied. Do not invent business rules. If missing information, respond BLOCKED and identify it.
